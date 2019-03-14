@@ -1,4 +1,13 @@
 validDomains.txt: all successful grabbed domains.
+oldID.txt: all old IDs, first 5 regex and remaining plain string.
+Find how old ID work.
+python findDomainByOldID.py oldID.txt /data1/nsrg/kwang40/fullData/2019-03-03/banners.json
+result saved in oldIDMatchResult.txt
+
+
+
+
+
 Find Name Servers Names contain special words (sell,park,expired,sale):
 python findNSInRR.py /data1/nsrg/kwang40/fullData/2019-03-03/RR.json sell,park,expired,sale validDomains.txt > result.txt
 NS have special words as token saved in tokenNS.txt,
