@@ -1,6 +1,5 @@
 http://parkingcrew.net
 http://parking.parklogic.com
-http://'+document.location.host+'
 http://img.sedoparking.com
 http://sedoparking.com
 https://www.sedo.com
@@ -9,31 +8,16 @@ http://i.cdnpark.com
 http://plp.parklogic.com
 https://www.afternic.com
 http://c.parkingcrew.net
-https://certs.godaddy.com
-http://ocsp.godaddy.com
-http://crl.godaddy.com
-http://certificates.godaddy.com
-http://certs.godaddy.com
 https://www.domains4bitcoins.com
 https://domains4bitcoins.help
 https://my.domains4bitcoins.com
-http://www.cointernet.com.co
-https://www.go.co
-http://www.neustar.biz
-http://www.go.co
 https://www.reg.ru
 http://whois.co
 https://www.mydomaincontact.com
-http://yourmine.ru
 https://parking.reg.ru
-https://www.reg.rudomain
 http://www.sedo.com
-http://www.namebrightstatic.com
-http://www.NameBright.com
 https://sedo.com
 http://www.afternic.com
-http://statcounter.com
-http://c.statcounter.com
 saScript.src = location.protocol + "//pxlgnpgecom-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10";
 <a href="/tos.php" onclick="window.open('/tos.php','tos','location=0,status=0,scrollbars=1,width=800,height=600'); return false;">Terms of Use</a>
 Click+here+to+renew+it.&amp;reg_href_url=http%3A%2F%2Fmy.alpnames.com%2Flinkhandler%2Fservlet%2FRenewDomainServlet%3Fvalidatenow%3Dfalse%26amp%3
