@@ -1,6 +1,6 @@
 validDomains.txt: all successful grabbed domains.
 oldID.txt: all old IDs, first 5 regex and remaining plain string.
-Find how old ID work.
+Find performance of old ID.
 python findDomainByOldID.py oldID.txt /data1/nsrg/kwang40/fullData/2019-03-03/banners.json
 result saved in oldIDMatchResult.txt
 
@@ -14,6 +14,6 @@ Other NS unqiue Domains count: 64505
 Verify top 50 other NS are parked NS. Non parked NS of token NS saved in: nonValidTokenNS.txt
 All unique domains (64350) saved in domainByTokenAndOtherNS.txt
 
-Collect All Domains collected by IDs.
-python getDomainsByID.py oldID.txt domainsByOldID.txt
-python getDomainsByID.py newID.txt domainsByNewID.txt
+Find performance of new ID.
+python findAdditionDomainByNewID.py
+all domains find by new ID in allDomainByNewID.txt and additional domains find by new ID in additionDomainByNewID.txt.
