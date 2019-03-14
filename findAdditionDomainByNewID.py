@@ -4,6 +4,7 @@ from collections import defaultdict
 #python findAdditionDomainByNewID.py
 IDs = []
 parkedDomains = {}
+allParkedDomains = {}
 newDomains = defaultdict(list)
 allDomains = defaultdict(list)
 errorStr = '\"http\":{}},\"error\":'
@@ -19,6 +20,7 @@ def parse(line, domain):
     for ID in IDs:
         if line.find(ID) != -1:
             allDomains[ID].append(domain)
+            allParkedDomains[domain] = True
             if domainName not in parkedDomains:
                 newDomains[ID].append(domain)
 
@@ -70,3 +72,7 @@ with open ('allDomainByNewID.txt', 'w') as f:
 with open ('domainByNewIDCount.txt', 'w') as f:
     for ID in IDs:
         f.write(ID + ':' + len(allDomains[ID]) + '\n')
+
+with open ('domainsByNewID.txt', 'w') as f:
+    for domain in allParkedDomains.keys():
+        f.write(domain + '\n')
