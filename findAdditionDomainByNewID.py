@@ -46,8 +46,7 @@ with open('/data1/nsrg/kwang40/fullData/2019-03-03/banners.json') as infile:
             domainNameStart = line.find('domain') + 9
             domainNameEnd = line.find('\"', domainNameStart)
             domainName = line[domainNameStart : domainNameEnd]
-            if domainName not in parkedDomains:
-                parse(line, domainName)
+            parse(line, domainName)
 
 for k,v in newDomains.items():
     newDomains[k] = list(set(v))
