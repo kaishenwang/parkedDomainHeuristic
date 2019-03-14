@@ -34,7 +34,7 @@ with open ('domainByTokenAndOtherNS.txt') as f:
 for line in lines:
     parkedDomains[line.rstrip()] = True
 
-with open ('newID.txt ') as f:
+with open ('newID.txt') as f:
     lines = f.readlines()
 for line in lines:
     IDs.append(encodeHtmlEscape(line.rstrip()))
