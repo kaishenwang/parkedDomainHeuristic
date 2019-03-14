@@ -1,18 +1,31 @@
 import sys
 from collections import defaultdict
 
-#python findAdditionDomainByNewID.py domainByTokenAndOtherNS.txt newID.txt  /data1/nsrg/kwang40/fullData/2019-03-03/banners.json additionDomainByNewID
-URLs = []
+#python findAdditionDomainByNewID.py domainByTokenAndOtherNS.txt newID.txt  /data1/nsrg/kwang40/fullData/2019-03-03/banners.json additionDomainByNewID.txt
+IDs = []
 parkedDomains = {}
 newDomains = defaultdict(list)
 
 errorStr = '\"http\":{}},\"error\":'
+htmlEscapeDict = {}
+def encodeHtmlEscape(s):
+    for i, j in htmlEscapeDict.iteritems():
+        s = s.replace(i, j)
+    return s
+
 def parse(line, domain):
     if line.find(errorStr) != -1:
         return
-    for url in URLs:
-        if line.find(url) != -1:
-            newDomains[url].append(domain)
+    for ID in IDs:
+        if line.find(ID) != -1:
+            newDomains[ID].append(domain)
+
+
+htmlEscapeDict['\"'] = '\\\"'
+htmlEscapeDict['<'] = '\\u003c'
+htmlEscapeDict['>'] = '\\u003e'
+htmlEscapeDict['&'] = '\\u0026'
+
 
 with open (sys.argv[1]) as f:
     lines = f.readlines()
@@ -21,9 +34,9 @@ for line in lines:
 
 with open (sys.argv[2]) as f:
     lines = f.readlines()
-for i in range(50):
-    line = lines[i]
-    URLs.append(line.rstrip())
+for line in lines:
+    IDs.append(encodeHtmlEscape(line.rstrip()))
+
 
 with open(sys.argv[3]) as infile:
     for line in infile:
@@ -38,8 +51,8 @@ for k,v in newDomains.items():
     newDomains[k] = list(set(v))
 
 with open (sys.argv[4], 'w') as f:
-    for url in URLs:
-        f.write(url + ':')
-        for domain in newDomains[url]:
+    for ID in IDs:
+        f.write(ID + ':')
+        for domain in newDomains[ID]:
             f.write(domain + ',')
         f.write('\n')
