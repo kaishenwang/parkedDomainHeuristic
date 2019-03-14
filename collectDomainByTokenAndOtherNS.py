@@ -33,6 +33,6 @@ for line in lines:
     for domain in domainsList:
         domains[domain] = True
 
-with open('DomainByTokenAndOtherNS.txt', 'w') as f:
+with open('domainByTokenAndOtherNS.txt', 'w') as f:
     for domain in domains.keys():
         f.write(domain + '\n')

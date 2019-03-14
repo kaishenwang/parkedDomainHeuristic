@@ -4,12 +4,12 @@ Find how old ID work.
 python findDomainByOldID.py oldID.txt /data1/nsrg/kwang40/fullData/2019-03-03/banners.json
 result saved in oldIDMatchResult.txt
 
-
-
-
-
 Find Name Servers Names contain special words (sell,park,expired,sale):
 python findNSInRR.py /data1/nsrg/kwang40/fullData/2019-03-03/RR.json sell,park,expired validDomains.txt > result.txt
 NS have special words as token saved in tokenNS.txt,
 NS have special words as substrings only saved in otherNS.txt
-Verify 
+Token NS unqiue Domains count: 5217
+Top 50 other NS unique Domain Count: 59732
+Other NS unqiue Domains count: 64505
+Verify top 50 other NS are parked NS. Non parked NS of token NS saved in: nonValidTokenNS.txt
+All unique domains (64350) saved in domainByTokenAndOtherNS.txt
