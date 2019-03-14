@@ -13,3 +13,7 @@ Top 50 other NS unique Domain Count: 59732
 Other NS unqiue Domains count: 64505
 Verify top 50 other NS are parked NS. Non parked NS of token NS saved in: nonValidTokenNS.txt
 All unique domains (64350) saved in domainByTokenAndOtherNS.txt
+
+Collect All Domains collected by IDs.
+python getDomainsByID.py oldID.txt domainsByOldID.txt
+python getDomainsByID.py newID.txt domainsByNewID.txt
