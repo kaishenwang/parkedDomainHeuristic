@@ -4,7 +4,7 @@ Find performance of old ID.
 python findDomainByOldID.py oldID.txt /data1/nsrg/kwang40/fullData/2019-03-03/banners.json
 result saved in oldIDMatchResult.txt
 
-Find Name Servers Names contain special words (sell,park,expired,sale):
+Find Name Servers Names contain special words (sell,park,expired):
 python findNSInRR.py /data1/nsrg/kwang40/fullData/2019-03-03/RR.json sell,park,expired validDomains.txt > result.txt
 NS have special words as token saved in tokenNS.txt,
 NS have special words as substrings only saved in otherNS.txt
@@ -14,6 +14,11 @@ Other NS unqiue Domains count: 64505
 Verify top 50 other NS are parked NS. Non parked NS of token NS saved in: nonValidTokenNS.txt
 All unique domains (64350) saved in domainByTokenAndOtherNS.txt
 
-Find performance of new ID.
+Find performance of new ID (Verified).
 python findAdditionDomainByNewID.py
 all domains find by new ID in allDomainByNewID.txt and additional domains find by new ID in additionDomainByNewID.txt.
+Find 110580 domains by new ID. Has 38150 (59%) overlap with domainByTokenAndOtherNS.
+
+Find 4 new useful NS from the domains found by new ID, saved in newNS.txt.
+Use python collectAllParkedDomains.py to find 137013 parked domains.
+
