@@ -1,0 +1,5 @@
+validDomains.txt: all successful grabbed domains.
+Find Name Servers Names contain special words (sell,park,expired,sale):
+python findNSInRR.py /data1/nsrg/kwang40/fullData/2019-03-03/RR.json sell,park,expired,sale validDomains.txt > result.txt
+NS have special words as token saved in tokenNS.txt,
+NS have special words as substrings only saved in otherNS.txt
