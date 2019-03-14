@@ -71,7 +71,7 @@ with open ('allDomainByNewID.txt', 'w') as f:
 
 with open ('domainByNewIDCount.txt', 'w') as f:
     for ID in IDs:
-        f.write(ID + ':' + len(allDomains[ID]) + '\n')
+        f.write(ID + ':' + str(len(allDomains[ID])) + '\n')
 
 with open ('domainsByNewID.txt', 'w') as f:
     for domain in allParkedDomains.keys():
