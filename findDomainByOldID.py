@@ -71,6 +71,6 @@ for k,v in IDStrs.items():
 sorted_list = sorted(IDs.items(), key=lambda x: len(x[1]), reverse=True)
 sortedStr_list = sorted(IDStrs.items(), key=lambda x: len(x[1]), reverse=True)
 writeResult('oldIDMatchResult.txt', sorted_list, sortedStr_list)
-with open ('domainsByOldID.txt') as f:
+with open ('domainsByOldID.txt', 'w') as f:
     for domain in uniqueDomains.keys():
         f.write(domain + '\n')
