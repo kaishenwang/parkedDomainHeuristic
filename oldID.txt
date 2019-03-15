@@ -1,16 +1,16 @@
 <framesrc="http:/\/\ww[0−9]{1,2}\.
---gpup\(http:/\/\ww[0−9]{1,2}\.
+__gpup\(http:/\/\ww[0−9]{1,2}\.
 'resultsPageBaseUrl':'http:/\/\ww[0−9]{1,2}\.
 \$.ajax\(\{url:'http:\/\/ww[0−9]{1,2}\.
 http:\/\/05000[0−9]{1}.voodoo.com
-elm.setAttribute("src","http://contextual.media.net/dmp
+__elm.setAttribute("src","http://contextual.media.net/dmp
 type="text/javascript">document.write(popularCategories);</script><a
-'resultsPageBaseUrl':'http://chargedodia.com'+pq,
+'resultsPageBaseUrl': 'http://chargedodia.com'+pq,
 /common/roar/landing/rpos/">
-sreservedwithDomainDiscover
+s reserved with Domain Discover
 <strong><ahref="/inquiry.html?Query=
 www.domainpower.com/marketplace/domainfor
-<framesrc="http://www.domain−leasing.com/"name="m
+<framesrc="http://www.domain−leasing.com/"
 <framesrc="http://dsparking.com/?o
 "0"scrolling=nosrc="http://landing.domainsponsor.com
 &domainname=refererdetect'
@@ -19,31 +19,29 @@ https://www.bodis.com/market/checkout?domain=
 https://mcc.godaddy.com/parked/park.aspx
 https://mcc.godaddy.com/DomainInterest
 https://mcc.securepaynet.net/parked/park.aspx
-Thispageprovidedtothedomainowner<b>free</b>bySedo
+This page provided to the domain owner <b> free </b> by Sedo
 href="http://www.domainpool.com/domains/
 http://hus.parkingspa.com?domain=
 http://hus.parkingspa.com/?cid=
 http://fwdservice.com/main.php?dmn=
 http://www.searchnut.com/?domain=
 http://www.trafficzposter.com/inquiry.html?Query=
-<framesrc="http://adomino.com/p.php?domain=
-<ahref="xflp/privacypolicy.html"target=privacy>PrivacyPolicy</a>
-Listedinthemarketplaceat<atarget="blank"class="bodylink"
+<frame src="http://adomino.com/p.php?domain=
+<a href="xflp/privacypolicy.html" target=_privacy>Privacy Policy</a>
 href="http://domainnamesales.com/">DomainNameSales.com</a>
-<scripttype="text/javascript"
 src="http://return.bs.domainnamesales.com/
-<divclass="forSale"><ahref="http://www.buydomains.com
+<div class="forSale"><a href="http://www.buydomains.com
 src="http://return.uk.domainnamesales.com/
-varpopularCategoriesHardCoded=newArray();
-<LIclass=style4><aclass=style4href="dtzsch/
-<aclass=linkshref="dtzsch/
-<ahref="xflp/privacypolicydn.html"target=privacy>PrivacyPolicy</a>
-href="/xflp/layout/layout
-<frameid="sub1"src="bh.php?dm=
+var popularCategoriesHardCoded = newArray();
+<LI class=style4><a class=style4 href="dtzsch/
+<a class=links href="dtzsch/
+<a href="xflp/privacy_policy_dn.html" target=_privacy>Privacy Policy</a>
+href="/xflp/_layout_/layout
+<frame id="sub1" src="bh.php?dm=
 applyFrameKiller();
 uri="/checkMouse.php"+"?idssid=
-extrapages/parking−domain−prices.png"
+extra_pages/parking−domain−prices.png"
 http://website.ws/construct.dhtml?host=
-Thispageisprovidedcourtesyof<ahref="http://www.godaddy.com?
+This page is provided courtesy of <a href="http://www.godaddy.com?
 href="http://www.godaddy.com/domains/search.aspx?domainToCheck=
-<ahref="http://fwdservice.com/domain−inquiry.php?d=
+<a href="http://fwdservice.com/domain−inquiry.php?d=
