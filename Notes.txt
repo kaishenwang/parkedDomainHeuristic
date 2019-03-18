@@ -20,5 +20,4 @@ all domains find by new ID in allDomainByNewID.txt and additional domains find b
 Find 110580 domains by new ID. Has 38150 (59%) overlap with domainByTokenAndOtherNS.
 
 Find 4 new useful NS from the domains found by new ID, saved in newNS.txt.
-Use python collectAllParkedDomains.py to find 136958 parked domains.
-
+Use python collectAllParkedDomains.py to find 137710 parked domains.
