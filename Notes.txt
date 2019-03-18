@@ -20,4 +20,5 @@ all domains find by new ID in allDomainByNewID.txt and additional domains find b
 Find 110580 domains by new ID. Has 38150 (59%) overlap with domainByTokenAndOtherNS.
 
 Find 4 new useful NS from the domains found by new ID, saved in newNS.txt.
-Use python collectAllParkedDomains.py to find 137710 parked domains.
+Find 1 additional ID from look at the data.
+Use python collectAllParkedDomains.py to find 139646 (3.5%) parked domains. Total count of unique valid domains is 4039722.
