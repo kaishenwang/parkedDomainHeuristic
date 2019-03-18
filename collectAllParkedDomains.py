@@ -6,6 +6,7 @@ def helper(fName):
             uniqueDomains[line.rstrip()] = True
 helper('domainsByNewID.txt')
 helper('domainsByOldID.txt')
+helper('domainsByAdditionID.txt')
 helper('domainByTokenAndOtherNS.txt')
 
 # New NS
