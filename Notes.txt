@@ -17,7 +17,7 @@ All unique domains (64350) saved in domainByTokenAndOtherNS.txt
 Find performance of new ID (Verified).
 python findAdditionDomainByNewID.py
 all domains find by new ID in allDomainByNewID.txt and additional domains find by new ID in additionDomainByNewID.txt.
-Find 110580 domains by new ID. Has 38150 (59%) overlap with domainByTokenAndOtherNS.
+Find 112516 domains by new ID. Has 38151 (59%) overlap with domainByTokenAndOtherNS.
 
 Find 4 new useful NS from the domains found by new ID, saved in newNS.txt.
 Find 1 additional ID from look at the data.
